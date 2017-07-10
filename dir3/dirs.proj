@@ -1,0 +1,12 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+
+ <ItemGroup>
+   <ProjectFile Include="dir31\dir31.proj"/>
+   <ProjectFile Include="dir32\dir32.proj"/>
+   <ProjectFile Include="dir33\dir33.proj"/>
+ </ItemGroup>
+
+ <Import Project="$(TargetsPath)\Common.Build.Traversal.targets" />
+
+</Project>
